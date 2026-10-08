@@ -1,0 +1,1088 @@
+{
+  "about": {
+    "label": "About Us",
+    "title": "Your Partner In *Business Growth*",
+    "intro": "We are a trusted business consulting firm, helping businesses build smarter strategies, improve operations and achieve sustainable growth. Our focus is on delivering practical solutions that create real value for your business.",
+    "points": [
+      "Tailored strategies for your unique business goals",
+      "Expert team with industry experience",
+      "Proven results across diverse industries"
+    ],
+    "badges": [
+      {
+        "icon": "lightbulb",
+        "text": "Innovative Strategies"
+      },
+      {
+        "icon": "users",
+        "text": "Expert Team"
+      },
+      {
+        "icon": "target",
+        "text": "Result-Driven Solutions"
+      }
+    ]
+  },
+  "blogCategories": [
+    {
+      "name": "Business Strategy",
+      "count": 8
+    },
+    {
+      "name": "Financial Advisory",
+      "count": 6
+    },
+    {
+      "name": "Digital Transformation",
+      "count": 5
+    },
+    {
+      "name": "Market Expansion",
+      "count": 4
+    },
+    {
+      "name": "Operations Consulting",
+      "count": 6
+    },
+    {
+      "name": "Industry Trends",
+      "count": 5
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "How to Improve Business Efficiency in 2026",
+      "heading": "How to Improve Business Efficiency *in 2026*",
+      "excerpt": "Discover practical strategies to streamline operations and boost productivity in your business.",
+      "date": "August 5, 2026",
+      "author": "Admin",
+      "category": "Business Strategy",
+      "image": "/images/blog/business-efficiency.jpg",
+      "heroImage": "/images/blog/business-efficiency-hero.jpg",
+      "intro": [
+        "In today's fast-paced business environment, efficiency is more important than ever. Companies that streamline their operations, adopt the right technologies, and optimize their resources can achieve higher productivity, reduce costs, and deliver better customer experiences.",
+        "As we move into 2026, businesses need to focus on smarter strategies and practical solutions that not only solve current challenges but also prepare them for future growth."
+      ],
+      "sections": [
+        {
+          "heading": "1. Leverage Technology",
+          "text": "Technology plays a crucial role in improving business efficiency. From cloud-based tools to automation software, the right technology helps you save time, reduce manual work, and minimize errors. Businesses should evaluate their current systems and invest in solutions that integrate processes and provide real-time insights."
+        },
+        {
+          "heading": "2. Streamline Your Processes",
+          "text": "Inefficient processes can slow down your business and increase operational costs. It's important to identify bottlenecks, eliminate unnecessary steps, and standardize workflows. A clear and well-defined process ensures that your team can work more effectively and deliver consistent results."
+        },
+        {
+          "heading": "3. Focus on Employee Productivity",
+          "text": "Your team is one of your most valuable assets. Providing the right tools, training, and support can significantly boost employee productivity. A motivated and well-equipped team is more engaged, makes fewer mistakes, and contributes to overall business success."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Top Financial Planning Tips for Small Businesses",
+      "heading": "Top Financial Planning Tips for *Small Businesses*",
+      "excerpt": "Learn how effective financial planning can help you manage risks and achieve long-term growth.",
+      "date": "July 28, 2026",
+      "author": "Admin",
+      "category": "Financial Advisory",
+      "image": "/images/blog/financial-planning.jpg",
+      "intro": [
+        "Good financial planning is the backbone of every successful small business. It helps you stay in control of cash, prepare for uncertainty and invest in the right opportunities.",
+        "Here are three simple habits that can make a big difference to your financial health."
+      ],
+      "sections": [
+        {
+          "heading": "1. Build a Realistic Budget",
+          "text": "Start with your actual income and expenses, not hopes. Review the budget every month and adjust it as your business changes so you always know where your money is going."
+        },
+        {
+          "heading": "2. Keep an Emergency Reserve",
+          "text": "Unexpected costs and slow months are a part of business. Setting aside a reserve of three to six months of expenses keeps you stable and gives you room to make calm decisions."
+        },
+        {
+          "heading": "3. Track Cash Flow Weekly",
+          "text": "Profit on paper does not pay bills. Watching cash flow every week helps you spot late payments early, plan purchases wisely and avoid last-minute borrowing."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A Complete Guide to Expanding in International Markets",
+      "heading": "A Complete Guide to Expanding in *International Markets*",
+      "excerpt": "Explore key considerations, opportunities and best practices for taking your business global.",
+      "date": "July 14, 2026",
+      "author": "Admin",
+      "category": "Market Expansion",
+      "image": "/images/blog/international-markets.jpg",
+      "intro": [
+        "Expanding internationally can open new revenue streams and strengthen your brand, but it also brings new risks. A clear plan is the difference between a confident launch and a costly mistake.",
+        "This guide covers the three areas every business should get right before going global."
+      ],
+      "sections": [
+        {
+          "heading": "1. Research Your Target Market",
+          "text": "Understand local demand, competitors, pricing and customer habits. Early research helps you choose the right country and tailor your offer instead of copying what works at home."
+        },
+        {
+          "heading": "2. Understand Rules and Compliance",
+          "text": "Every market has its own tax, trade and legal requirements. Work with local experts to make sure licenses, contracts and regulations are handled properly from day one."
+        },
+        {
+          "heading": "3. Start Small and Scale",
+          "text": "Begin with a pilot, learn from real customers and then expand. A phased approach limits risk and lets you build local partnerships with confidence."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Importance of Customer Support in Business Growth",
+      "heading": "The Importance of Customer Support in *Business Growth*",
+      "excerpt": "Learn how exceptional customer support can increase customer loyalty and drive long-term success.",
+      "date": "June 30, 2026",
+      "author": "Admin",
+      "category": "Operations Consulting",
+      "image": "/images/blog/customer-support.jpg",
+      "intro": [
+        "Customers remember how you treat them when something goes wrong. Strong customer support turns problems into loyalty and happy customers into advocates.",
+        "Here is why support deserves a place in your growth strategy."
+      ],
+      "sections": [
+        {
+          "heading": "1. Loyal Customers Spend More",
+          "text": "Customers who feel valued come back more often and spend more over time. Retaining a customer is usually far cheaper than finding a new one."
+        },
+        {
+          "heading": "2. Support Gives You Insight",
+          "text": "Every query is feedback. Tracking common questions shows you where your product, pricing or communication can improve."
+        },
+        {
+          "heading": "3. Speed and Consistency Matter",
+          "text": "Clear processes, the right tools and trained people ensure every customer gets quick and consistent help, whichever channel they use."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Digital Transformation Strategies for Modern Businesses",
+      "heading": "Digital Transformation Strategies for *Modern Businesses*",
+      "excerpt": "Discover how digital transformation can help you stay competitive and adapt to changing market demands.",
+      "date": "June 18, 2026",
+      "author": "Admin",
+      "category": "Digital Transformation",
+      "image": "/images/blog/digital-transformation.jpg",
+      "intro": [
+        "Digital transformation is not just about new software. It is about changing how your business works so it can respond faster to customers and the market.",
+        "These three principles help keep transformation projects on track."
+      ],
+      "sections": [
+        {
+          "heading": "1. Start with Business Goals",
+          "text": "Choose technology only after you know the problem you want to solve. Clear goals keep spending focused and results measurable."
+        },
+        {
+          "heading": "2. Involve Your People",
+          "text": "Tools succeed when teams use them. Involve employees early, offer training and listen to their feedback during the rollout."
+        },
+        {
+          "heading": "3. Improve Step by Step",
+          "text": "Roll out change in stages, measure the results and keep improving. Small, steady wins build momentum and reduce risk."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "How to Build a High-Performing Team",
+      "heading": "How to Build a *High-Performing Team*",
+      "excerpt": "Explore actionable tips to attract, retain and motivate top talent in your organization.",
+      "date": "June 5, 2026",
+      "author": "Admin",
+      "category": "Industry Trends",
+      "image": "/images/blog/high-performing-team.jpg",
+      "intro": [
+        "Great businesses are built by great teams. High-performing teams share clear goals, trust and the support they need to do their best work.",
+        "Three practices stand out in the strongest organizations."
+      ],
+      "sections": [
+        {
+          "heading": "1. Hire for Fit and Potential",
+          "text": "Skills can be taught, but attitude and values are harder to change. Look for people who share your vision and want to grow with the company."
+        },
+        {
+          "heading": "2. Set Clear Expectations",
+          "text": "People perform best when they know what success looks like. Share goals openly and review progress through regular, honest conversations."
+        },
+        {
+          "heading": "3. Recognize and Develop",
+          "text": "Appreciate good work and invest in training. Employees who see a future with you are more motivated and more likely to stay."
+        }
+      ]
+    }
+  ],
+  "blogSection": {
+    "label": "Our Blog",
+    "title": "Latest *Insights*",
+    "text": "Explore our latest articles, tips and resources to stay informed and make better business decisions."
+  },
+  "caseHelpCard": {
+    "title": "How Can We Help You?",
+    "text": "Contact us at the Consulting office nearest to you or submit a business inquiry online.",
+    "button": "Contact Us"
+  },
+  "caseSection": {
+    "label": "Our",
+    "title": "Case *Studies*"
+  },
+  "caseStudies": [
+    {
+      "id": 1,
+      "category": "Customer Support",
+      "title": "Improving Customer Support Efficiency for a Growing E-commerce Brand",
+      "heading": "Improving Customer Support Efficiency for a Growing *E-commerce Brand*",
+      "subtitle": "Customer Support & Process Optimization",
+      "image": "/images/case-studies/customer-support.jpg",
+      "listed": false,
+      "intro": "A fast-growing e-commerce company was struggling to manage a high volume of customer inquiries across multiple channels, which led to delayed response times and lower customer satisfaction.",
+      "body": "Our consulting team worked closely with the client to streamline their support operations, implement efficient processes and introduce the right technology solutions to enhance customer experience and operational efficiency.",
+      "challenge": "The client was receiving a rapidly increasing number of customer queries through phone, email and live chat. Their existing support processes were manual and unorganized, resulting in longer response times, inconsistent customer service and a decline in overall customer satisfaction.",
+      "solution": "We conducted a detailed analysis of their support workflow and implemented a structured customer support framework. This included automating ticket management, setting up a multi-channel support system, providing team training and introducing performance monitoring tools to ensure faster and more consistent responses.",
+      "result": "The client achieved a 40% reduction in response time, improved customer satisfaction scores by 35% and was able to handle a higher volume of inquiries with the same team. The streamlined processes also led to better team productivity and long-term operational cost savings."
+    },
+    {
+      "id": 2,
+      "category": "Operations Consulting",
+      "title": "Scaling Operations for a Mid-Sized Manufacturing Firm",
+      "heading": "Scaling Operations for a *Mid-Sized Manufacturing Firm*",
+      "subtitle": "Operations & Production Planning",
+      "image": "/images/services/operational-consulting.jpg",
+      "listed": false,
+      "intro": "A mid-sized manufacturing firm wanted to double its output but was held back by manual planning and frequent production delays.",
+      "body": "We reviewed the full production cycle, introduced lean practices and set up clear planning and tracking systems to support steady growth.",
+      "challenge": "Production schedules were managed on spreadsheets, machines sat idle between jobs, and stock shortages caused repeated delays in customer orders.",
+      "solution": "We mapped the production flow, removed bottlenecks, introduced demand-based planning and set up a simple dashboard to track output, downtime and inventory in real time.",
+      "result": "The firm increased output by 45%, cut delivery delays by half and reduced material wastage by 18% within six months."
+    },
+    {
+      "id": 3,
+      "category": "Technology Consulting",
+      "title": "Driving Digital Transformation in the Healthcare Sector",
+      "heading": "Driving Digital Transformation in the *Healthcare Sector*",
+      "subtitle": "Technology & Digital Strategy",
+      "image": "/images/services/technology-consulting.jpg",
+      "listed": false,
+      "intro": "A multi-clinic healthcare provider relied on paper records and separate systems, making patient care and reporting slow.",
+      "body": "We designed a phased digital roadmap and guided the team through selecting, rolling out and adopting a unified patient management platform.",
+      "challenge": "Patient data was scattered across clinics, appointment booking was manual and management had no single view of performance.",
+      "solution": "We introduced a central patient management system with online booking, digital records and automated reporting, backed by staff training and data security checks.",
+      "result": "Waiting times dropped by 30%, appointment no-shows fell by 22% and management gained live reporting across all clinics."
+    },
+    {
+      "id": 4,
+      "category": "Financial Advisory",
+      "title": "Enhancing Financial Planning for a Retail Business",
+      "heading": "Enhancing Financial Planning for a *Retail Business*",
+      "subtitle": "Financial Planning & Cost Control",
+      "image": "/images/services/financial-advisory.jpg",
+      "listed": false,
+      "intro": "A growing retail chain lacked reliable forecasts, which led to cash-flow stress during peak and off-peak seasons.",
+      "body": "We built a clear financial planning framework with monthly forecasting and cost-control measures that gave the owners confidence in every decision.",
+      "challenge": "Budgets were set once a year and rarely reviewed, stock was over-purchased and cash was often tied up at the wrong time.",
+      "solution": "We introduced rolling forecasts, store-level profit tracking and an inventory purchase policy linked to sales trends.",
+      "result": "Cash-flow became stable year-round, inventory holding costs fell by 20% and overall profit margin improved by 8%."
+    },
+    {
+      "id": 5,
+      "category": "Business Consulting",
+      "title": "Helping a Startup Scale Operations Successfully",
+      "heading": "Helping a Startup *Scale Operations* Successfully",
+      "subtitle": "Business Consulting & Growth Strategy",
+      "image": "/images/case-studies/startup-scale-hd.jpg",
+      "listed": true,
+      "intro": "A fast-moving startup had strong demand but its internal processes could not keep up with the growth.",
+      "body": "We helped the founders define roles, build repeatable processes and plan hiring so the company could scale without losing quality.",
+      "challenge": "Roles were unclear, tasks depended on a few key people and customer delivery was becoming inconsistent.",
+      "solution": "We designed a simple operating model, documented core processes, introduced weekly performance reviews and created a 12-month hiring plan.",
+      "result": "Delivery time improved by 35%, the team doubled without service issues and the founders gained time to focus on strategy."
+    },
+    {
+      "id": 6,
+      "category": "Financial Advisory",
+      "title": "Optimizing Financial Strategy for Sustainable Growth",
+      "heading": "Optimizing Financial Strategy for *Sustainable Growth*",
+      "subtitle": "Financial Strategy & Planning",
+      "image": "/images/case-studies/financial-strategy-hd.jpg",
+      "listed": true,
+      "intro": "A services company wanted steady growth but had no clear view of where profits were made or lost.",
+      "body": "We analysed revenue streams and costs, then built a financial strategy to focus resources on the most profitable areas.",
+      "challenge": "Costs were rising faster than revenue and decisions were being taken without reliable financial data.",
+      "solution": "We introduced profitability reporting by service line, set clear budgets and created a three-year financial plan.",
+      "result": "Operating margin improved by 12% and the company secured funding for its next phase of growth."
+    },
+    {
+      "id": 7,
+      "category": "Digital Transformation",
+      "title": "Streamlining Processes with Innovative Technology",
+      "heading": "Streamlining Processes with *Innovative Technology*",
+      "subtitle": "Digital Transformation & Automation",
+      "image": "/images/case-studies/digital-transformation-hd.jpg",
+      "listed": true,
+      "intro": "A distribution business spent hours every day on manual data entry and follow-ups.",
+      "body": "We replaced repetitive manual work with connected tools and automation, freeing the team for higher-value tasks.",
+      "challenge": "Orders, invoices and stock were tracked in different places, causing errors and slow turnaround.",
+      "solution": "We implemented an integrated order-to-invoice system with automated reminders and live inventory updates.",
+      "result": "Manual work dropped by 60%, order errors fell sharply and customers received faster service."
+    },
+    {
+      "id": 8,
+      "category": "Market Expansion",
+      "title": "Expanding into New Markets with a Strategic Approach",
+      "heading": "Expanding into New Markets with a *Strategic Approach*",
+      "subtitle": "Market Research & Expansion Strategy",
+      "image": "/images/case-studies/market-expansion-hd.jpg",
+      "listed": true,
+      "intro": "A successful regional brand wanted to enter new states but was unsure where to start.",
+      "body": "We researched demand, competitors and partners, and prepared a phased entry plan that limited risk.",
+      "challenge": "The client had no data on new markets and feared investing heavily in the wrong locations.",
+      "solution": "We ranked markets by potential, identified local partners and launched a pilot before full expansion.",
+      "result": "The brand entered three new states within a year and grew overall revenue by 28%."
+    },
+    {
+      "id": 9,
+      "category": "Human Resource Consulting",
+      "title": "Building a Stronger Workforce Through Strategic HR Solutions",
+      "heading": "Building a Stronger Workforce Through *Strategic HR Solutions*",
+      "subtitle": "HR Strategy & Talent Management",
+      "image": "/images/services/human-resource-consulting.jpg",
+      "listed": true,
+      "intro": "A growing company faced high employee turnover and difficulty hiring skilled people.",
+      "body": "We reviewed its HR policies and introduced clear hiring, training and performance programs.",
+      "challenge": "Employees left within the first year, managers lacked training and hiring was slow and inconsistent.",
+      "solution": "We redesigned the hiring process, built an onboarding program and introduced regular feedback and career paths.",
+      "result": "Turnover dropped by 40% and the average time to hire fell from 45 to 25 days."
+    },
+    {
+      "id": 10,
+      "category": "IT Consulting",
+      "title": "Enhancing Business Efficiency with Cloud Solutions",
+      "heading": "Enhancing Business Efficiency with *Cloud Solutions*",
+      "subtitle": "IT Consulting & Cloud Migration",
+      "image": "/images/services/technology-consulting.jpg",
+      "listed": true,
+      "intro": "A company running on aging on-premise servers faced high maintenance costs and frequent downtime.",
+      "body": "We planned and managed a secure move to the cloud with minimal disruption to daily work.",
+      "challenge": "Systems were slow, costly to maintain and hard to access for remote teams.",
+      "solution": "We migrated key applications to the cloud in phases, added backups and trained staff on the new tools.",
+      "result": "IT costs dropped by 30%, uptime reached 99.9% and teams could work securely from anywhere."
+    },
+    {
+      "id": 11,
+      "category": "Marketing Strategy",
+      "title": "Driving Brand Growth with Data-Driven Marketing",
+      "heading": "Driving Brand Growth with *Data-Driven Marketing*",
+      "subtitle": "Marketing Strategy & Analytics",
+      "image": "/images/services/marketing-strategy.jpg",
+      "listed": true,
+      "intro": "A consumer brand was spending heavily on marketing without knowing which channels worked.",
+      "body": "We set up tracking, analysed results by channel and shifted budget to what delivered customers.",
+      "challenge": "Campaigns were run without clear goals and reporting was incomplete.",
+      "solution": "We defined target audiences, set measurable goals and rebuilt the marketing mix using performance data.",
+      "result": "Cost per customer fell by 33% while monthly leads doubled in four months."
+    },
+    {
+      "id": 12,
+      "category": "Operations Consulting",
+      "title": "Improving Operational Efficiency for Long-Term Success",
+      "heading": "Improving Operational Efficiency for *Long-Term Success*",
+      "subtitle": "Operations & Efficiency",
+      "image": "/images/services/operational-consulting.jpg",
+      "listed": true,
+      "intro": "A logistics company faced rising costs and missed delivery windows.",
+      "body": "We reviewed routes, schedules and warehouse flow to find savings that could last.",
+      "challenge": "Poor route planning and unclear responsibilities led to delays and extra fuel and labour cost.",
+      "solution": "We optimized routes, standardized warehouse processes and introduced daily performance tracking.",
+      "result": "On-time delivery rose to 96% and operating costs fell by 15%."
+    }
+  ],
+  "contactInfo": [
+    {
+      "icon": "pin",
+      "title": "Our Office Address:",
+      "lines": [
+        "120 Broadway, New York,",
+        "NY 10271, USA"
+      ]
+    },
+    {
+      "icon": "phone",
+      "title": "Call for Help:",
+      "lines": [
+        "+1 00000 00000"
+      ]
+    },
+    {
+      "icon": "mail",
+      "title": "Mail for Information:",
+      "lines": [
+        "info@xyz.com"
+      ]
+    }
+  ],
+  "contactSection": {
+    "title": "Make a free consultation with our expert team to *solve your problems.*",
+    "text": "For any inquiries related to our services, feel free to reach out to us. Our team will get back to you as soon as possible.",
+    "button": "Send Message",
+    "helpOptions": [
+      "Business Strategy",
+      "Financial Advisory",
+      "Operations Consulting",
+      "Human Resource Consulting",
+      "Technology Consulting",
+      "Marketing Strategy",
+      "Other"
+    ]
+  },
+  "faqSection": {
+    "label": "FAQ",
+    "title": "You can learn more from\nour *asked questions*",
+    "text": "Find quick answers to the most common questions about our services, process and support. If you still need help, feel free to reach out to our team."
+  },
+  "faqs": [
+    {
+      "q": "What services do you offer?",
+      "a": "We offer a range of consulting services including business strategy, financial advisory, operational improvement, and digital transformation to help your business grow and succeed."
+    },
+    {
+      "q": "How can I get started with your services?",
+      "a": "You can get started by filling out our contact form or reaching out to us directly via phone or email. Our team will discuss your needs and guide you through the next steps."
+    },
+    {
+      "q": "Do you provide customized solutions?",
+      "a": "Yes. Every business is different, so we study your goals, challenges and market before designing a solution made specifically for you."
+    },
+    {
+      "q": "What industries do you work with?",
+      "a": "We work with startups and established companies across manufacturing, retail, healthcare, technology, finance, logistics and more."
+    },
+    {
+      "q": "How long does a typical project take?",
+      "a": "It depends on the scope. Small advisory projects can take a few weeks, while larger transformation projects may take several months. We share a clear timeline before we begin."
+    },
+    {
+      "q": "What makes your consulting services different?",
+      "a": "We focus on practical strategies and measurable results. Our experienced team works closely with you and stays involved until the plan delivers real value."
+    },
+    {
+      "q": "Do you offer ongoing support after the project is completed?",
+      "a": "Yes. We offer follow-up reviews and ongoing support plans so you can keep improving and handle new challenges with confidence."
+    },
+    {
+      "q": "Can I schedule a free consultation?",
+      "a": "Absolutely. Contact us through the website or call us and we will arrange a free initial consultation at a time that suits you."
+    }
+  ],
+  "hero": {
+    "title": "Strategic Solutions *For A Stronger* Tomorrow",
+    "text": "We help businesses grow with expert consulting, practical strategies and measurable results."
+  },
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services",
+      "dropdown": true
+    },
+    {
+      "label": "Case Study",
+      "href": "/case-study"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact-us"
+    }
+  ],
+  "pageTitles": {
+    "about": {
+      "title": "About *Us*",
+      "crumb": "About Us"
+    },
+    "services": {
+      "title": "Our *Services*",
+      "crumb": "Our Services"
+    },
+    "serviceDetail": {
+      "title": "Service *Detail*",
+      "crumb": "Service Detail"
+    },
+    "caseStudy": {
+      "title": "Case *Study*",
+      "crumb": "Case Study"
+    },
+    "caseDetail": {
+      "title": "Case Studies *Detail*",
+      "crumb": "Case Studies Detail"
+    },
+    "blog": {
+      "title": "Our *Blog*",
+      "crumb": "Our Blog"
+    },
+    "blogDetail": {
+      "title": "Blog *Detail*",
+      "crumb": "Blog Detail"
+    },
+    "faq": {
+      "title": "Our *FAQ*",
+      "crumb": "FAQ"
+    },
+    "contact": {
+      "title": "Contact *Us*",
+      "crumb": "Contact Us"
+    },
+    "quote": {
+      "title": "Get a *Quote*",
+      "crumb": "Get a Quote"
+    },
+    "sitemap": {
+      "title": "Site*map*",
+      "crumb": "Sitemap"
+    }
+  },
+  "quickLinks": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Case Study",
+      "href": "/case-study"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact-us"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "label": "Get a Quote",
+      "href": "/get-a-quote"
+    },
+    {
+      "label": "Thank You Page",
+      "href": "/thank-you"
+    }
+  ],
+  "quoteSection": {
+    "label": "Get a Quote",
+    "title": "Let's Build the Right Strategy *Together*",
+    "text": "Share your business goals with us and our experts will provide a customized solution with the right guidance for your growth.",
+    "features": [
+      {
+        "icon": "users",
+        "title": "Expert Consultants",
+        "text": "Connect with experienced and industry-specific professionals."
+      },
+      {
+        "icon": "clock",
+        "title": "Quick Response",
+        "text": "Our team will get back to you within 24 hours."
+      },
+      {
+        "icon": "shield",
+        "title": "No Obligation",
+        "text": "Get expert advice with no commitment."
+      }
+    ],
+    "help": {
+      "label": "Need Help?",
+      "title": "Talk to Our Experts",
+      "text": "Have questions or need guidance? Our team is here to help you find the best business solution."
+    },
+    "form": {
+      "title": "Request a Quote",
+      "text": "Fill out the form below and our team will get in touch with you.",
+      "businessTypes": [
+        "Startup",
+        "Small Business",
+        "Medium Enterprise",
+        "Large Enterprise",
+        "Non-Profit",
+        "Other"
+      ],
+      "button": "Submit Enquiry"
+    },
+    "process": {
+      "label": "Our Process",
+      "title": "From Enquiry to Results",
+      "steps": [
+        {
+          "no": "01",
+          "title": "Submit Enquiry",
+          "text": "Fill out the form with your requirements."
+        },
+        {
+          "no": "02",
+          "title": "Our Consultation",
+          "text": "Our experts will understand your business needs."
+        },
+        {
+          "no": "03",
+          "title": "Get a Custom Quote",
+          "text": "Receive a tailored solution within 24 hours."
+        },
+        {
+          "no": "04",
+          "title": "Start Growing",
+          "text": "Begin your journey with the right strategy."
+        }
+      ]
+    }
+  },
+  "serviceCardOrder": [
+    1,
+    5,
+    3,
+    6,
+    7,
+    8
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Business Strategy",
+      "image": "/images/services/strategic-planning.jpg",
+      "intro": "We help businesses define clear goals, identify growth opportunities, and create actionable strategies that drive long-term success. Our strategic planning services are designed to align your vision with market opportunities, ensuring sustainable growth and a competitive advantage.",
+      "offerText": "Our strategic planning process involves in-depth analysis, market research and collaboration to build a roadmap tailored to your business needs. We focus on practical, data-driven strategies that deliver measurable results.",
+      "offers": [
+        {
+          "icon": "target",
+          "title": "Goal Setting & Analysis",
+          "text": "We work with you to define clear and achievable business goals."
+        },
+        {
+          "icon": "chart",
+          "title": "Market Opportunity Assessment",
+          "text": "Identify and evaluate opportunities for growth in your industry."
+        },
+        {
+          "icon": "lightbulb",
+          "title": "Customized Strategy Development",
+          "text": "Tailored strategies to meet your unique business needs."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ],
+      "card": {
+        "title": "Business Strategy",
+        "text": "We help you define clear goals, identify growth opportunities and create actionable strategies for long-term success."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Business Consulting",
+      "image": "/images/services/business-strategy.jpg",
+      "intro": "Our business consulting service gives you an expert outside view of your company. We review your structure, processes and performance, then recommend practical changes that improve profitability and growth.",
+      "offerText": "We work side by side with your leadership team to diagnose problems, design solutions and support implementation, so every recommendation turns into real results.",
+      "offers": [
+        {
+          "icon": "search",
+          "title": "Business Health Check",
+          "text": "A complete review of your strengths, gaps and growth potential."
+        },
+        {
+          "icon": "settings",
+          "title": "Process Improvement",
+          "text": "Simplify workflows and remove bottlenecks across departments."
+        },
+        {
+          "icon": "trending",
+          "title": "Growth Roadmap",
+          "text": "A step-by-step plan to scale your business with confidence."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Financial Advisory",
+      "image": "/images/services/financial-advisory.jpg",
+      "intro": "We provide expert financial guidance to help you manage risks, improve profitability and make informed decisions. Our advisors bring clarity to your numbers so you can plan with confidence.",
+      "offerText": "From budgeting and forecasting to investment planning, our financial advisory services are built around your goals and designed to protect and grow your capital.",
+      "offers": [
+        {
+          "icon": "chart",
+          "title": "Financial Planning & Forecasting",
+          "text": "Build realistic budgets and forecasts that guide your growth."
+        },
+        {
+          "icon": "shield",
+          "title": "Risk Management",
+          "text": "Identify financial risks early and put the right safeguards in place."
+        },
+        {
+          "icon": "trending",
+          "title": "Profitability Improvement",
+          "text": "Find cost-saving and revenue opportunities across your business."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ],
+      "card": {
+        "title": "Financial Advisory",
+        "text": "We provide expert financial guidance to help you manage risks, improve profitability and make informed decisions."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Market Research",
+      "image": "/images/services/marketing-strategy.jpg",
+      "intro": "Make decisions backed by data. Our market research service helps you understand your customers, competitors and industry trends so you can enter and win markets with confidence.",
+      "offerText": "We combine primary research, competitor analysis and industry data to give you clear, actionable insights that reduce risk and reveal new opportunities.",
+      "offers": [
+        {
+          "icon": "search",
+          "title": "Competitor Analysis",
+          "text": "Understand where you stand and how to stand out."
+        },
+        {
+          "icon": "users",
+          "title": "Customer Insights",
+          "text": "Learn what your customers need, want and expect."
+        },
+        {
+          "icon": "chart",
+          "title": "Industry Trend Reports",
+          "text": "Stay ahead with clear reports on market movement and demand."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Operations Consulting",
+      "image": "/images/services/operational-consulting.jpg",
+      "intro": "We streamline your operations, optimize processes and improve efficiency to reduce costs and drive productivity. Our team helps you build operations that scale smoothly as you grow.",
+      "offerText": "We map your current workflows, find where time and money are lost, and redesign processes with the right tools and metrics to keep improvement going.",
+      "offers": [
+        {
+          "icon": "settings",
+          "title": "Process Optimization",
+          "text": "Redesign workflows to save time and reduce errors."
+        },
+        {
+          "icon": "trending",
+          "title": "Cost Reduction",
+          "text": "Cut unnecessary spend without hurting quality."
+        },
+        {
+          "icon": "chart",
+          "title": "Performance Tracking",
+          "text": "Set KPIs and dashboards to measure what matters."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ],
+      "card": {
+        "title": "Operational Consulting",
+        "text": "We streamline your operations, optimize processes and improve efficiency to reduce costs and drive productivity."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Human Resource Consulting",
+      "image": "/images/services/human-resource-consulting.jpg",
+      "intro": "We help you build a stronger workforce through effective talent management, leadership development and HR strategies that fit your company culture and goals.",
+      "offerText": "Our HR experts support you across hiring, training, performance management and retention, so your people become your biggest advantage.",
+      "offers": [
+        {
+          "icon": "users",
+          "title": "Talent Acquisition",
+          "text": "Attract and hire the right people for the right roles."
+        },
+        {
+          "icon": "award",
+          "title": "Leadership Development",
+          "text": "Grow confident leaders who can drive your vision."
+        },
+        {
+          "icon": "handshake",
+          "title": "Employee Engagement",
+          "text": "Build a motivated team with strong retention."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ],
+      "card": {
+        "title": "Human Resource Consulting",
+        "text": "We help you build a stronger workforce through effective talent management, leadership development and HR strategies."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Technology Consulting",
+      "image": "/images/services/technology-consulting.jpg",
+      "intro": "We enable digital transformation with innovative technology solutions that improve performance and drive growth. We help you choose, implement and get the most from the right tools.",
+      "offerText": "From cloud migration to process automation, our technology consultants align IT decisions with your business objectives and keep your systems secure and future-ready.",
+      "offers": [
+        {
+          "icon": "cpu",
+          "title": "Digital Transformation",
+          "text": "Modernize your business with the right digital tools."
+        },
+        {
+          "icon": "settings",
+          "title": "Process Automation",
+          "text": "Automate repetitive work and free your team for higher-value tasks."
+        },
+        {
+          "icon": "shield",
+          "title": "Security & Compliance",
+          "text": "Protect your data and meet industry standards."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ],
+      "card": {
+        "title": "Technology Consulting",
+        "text": "We enable digital transformation with innovative technology solutions that improve performance and drive growth."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Marketing Strategy",
+      "image": "/images/services/marketing-strategy.jpg",
+      "intro": "We create data-driven marketing strategies to enhance brand visibility, attract customers and drive sustainable business growth.",
+      "offerText": "We study your audience and market, then build a clear plan across channels with measurable targets, so every marketing rupee works harder.",
+      "offers": [
+        {
+          "icon": "megaphone",
+          "title": "Brand Positioning",
+          "text": "Define a clear message that sets you apart."
+        },
+        {
+          "icon": "target",
+          "title": "Campaign Planning",
+          "text": "Plan and run campaigns focused on real business goals."
+        },
+        {
+          "icon": "chart",
+          "title": "Analytics & Reporting",
+          "text": "Track results and keep improving with real data."
+        }
+      ],
+      "benefits": [
+        "Clear business direction",
+        "Improved decision-making",
+        "Better resource allocation",
+        "Increased operational efficiency",
+        "Long-term growth and sustainability",
+        "Competitive market positioning"
+      ],
+      "card": {
+        "title": "Marketing Strategy",
+        "text": "We create data-driven marketing strategies to enhance brand visibility, attract customers and drive sustainable business growth."
+      }
+    }
+  ],
+  "servicesSection": {
+    "label": "Our Services",
+    "title": "*Strategic Solutions* For Your Business",
+    "text": "We offer a range of consulting services designed to help businesses grow, improve performance, and achieve long-term success."
+  },
+  "site": {
+    "name": "BizConsult",
+    "tagline": "Strategy | Growth | Success",
+    "phone": "+1 00000 00000",
+    "phone2": "+1 00000 00000",
+    "email": "info@xyz.com",
+    "email2": "info@xyz.com",
+    "address": "120 Broadway, New York, NY 10271, USA",
+    "addressLines": [
+      "120 Broadway, New York,",
+      "NY 10271, USA"
+    ],
+    "officeAddressLines": [
+      "120 Broadway, New York,",
+      "NY 10271, USA"
+    ],
+    "hours": [],
+    "about": "We help businesses grow with expert consulting, practical strategies and measurable results. Our goal is to be your trusted partner in achieving long-term success.",
+    "copyright": "© 2026 BizConsult. All Rights Reserved. Powered by Lestow",
+    "mapEmbed": "https://maps.google.com/maps?q=120%20Broadway,%20New%20York,%20NY%2010271,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    "social": [
+      {
+        "name": "Facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "name": "Instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "name": "LinkedIn",
+        "href": "https://linkedin.com"
+      },
+      {
+        "name": "YouTube",
+        "href": "https://youtube.com"
+      }
+    ],
+    "images": {
+      "logoDark": "/images/logo/logo-dark.png",
+      "logoLight": "/images/logo/logo-light.png",
+      "pageBanner": "/images/banners/page-banner.jpg",
+      "hero": "/images/banners/hero-full.jpg",
+      "stats": "/images/banners/stats-full-hd.jpg",
+      "about": "/images/about.jpg",
+      "faq": "/images/faq.jpg",
+      "contact": "/images/contact.jpg",
+      "quoteHelp": "/images/quote-help.jpg",
+      "thankYou": "/images/thank-you.jpg"
+    }
+  },
+  "stats": {
+    "title": "Turning Ideas Into *Real Business Growth*",
+    "items": [
+      {
+        "icon": "briefcase",
+        "value": "150+",
+        "label": "Projects Completed"
+      },
+      {
+        "icon": "users",
+        "value": "50+",
+        "label": "Expert Professionals"
+      },
+      {
+        "icon": "award",
+        "value": "10+",
+        "label": "Years Of Experience"
+      },
+      {
+        "icon": "handshake",
+        "value": "250+",
+        "label": "Satisfied Clients"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Arjun Mehta",
+      "role": "CEO, Mehta Global Solutions",
+      "image": "/images/team/arjun-mehta.jpg",
+      "text": "The team provided valuable insights that helped us streamline our operations and increase profitability. Their practical approach and industry expertise made a real difference for our business."
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Director, Sharma Enterprises",
+      "image": "/images/team/priya-sharma.jpg",
+      "text": "Their strategic guidance helped us identify new growth opportunities and enter new markets with confidence. We truly appreciate their dedication and support throughout the process."
+    },
+    {
+      "name": "Rohit Verma",
+      "role": "Founder, Verma Tech Pvt. Ltd.",
+      "image": "/images/team/rohit-verma.jpg",
+      "text": "Professional, knowledgeable and results-driven. The team understood our goals and delivered tailored solutions that exceeded our expectations."
+    }
+  ],
+  "thankYou": {
+    "title": "Thank You *for Your Submission!*",
+    "text": "We have received your request for a quote. Our team will review your details and get back to you shortly with a customized proposal.",
+    "button": "Go to Home"
+  },
+  "whyChoose": {
+    "label": "Why Choose Us",
+    "title": "Your Trusted Partner For *Business Growth*",
+    "text": "We combine industry expertise, innovative strategies and a client-centric approach to deliver measurable results and long-term success.",
+    "items": [
+      {
+        "icon": "users",
+        "title": "Experienced Team",
+        "text": "A team of industry experts dedicated to your success."
+      },
+      {
+        "icon": "lightbulb",
+        "title": "Tailored Strategies",
+        "text": "Customized solutions to meet your unique business needs."
+      },
+      {
+        "icon": "chart",
+        "title": "Proven Results",
+        "text": "A track record of delivering sustainable and measurable growth."
+      },
+      {
+        "icon": "handshake",
+        "title": "Client-Centric Approach",
+        "text": "Your goals are our priority, with transparent and collaborative support."
+      }
+    ]
+  }
+}
