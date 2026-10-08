@@ -66,7 +66,7 @@ export default function Header() {
       </div>
 
       {/* Nav bar */}
-      <nav className="bg-ink text-white py-2">
+      <nav className="hidden lg:block bg-ink text-white py-2">
         <div className="container-x flex items-center justify-between">
           <ul className="hidden items-center gap-8 lg:flex">
             {navLinks.map((link) => (

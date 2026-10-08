@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Suspense fallback={null}>
             <Header />
           </Suspense>
-          <main className="flex-1 pt-[140px] md:pt-[160px]">{children}</main>
+          <main className="flex-1 pt-[70px] lg:pt-[155px]">{children}</main>
           <Suspense fallback={null}>
             <Footer />
           </Suspense>
