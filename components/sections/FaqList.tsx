@@ -12,7 +12,7 @@ export default function FaqList() {
   const cols = [faqs.map((f, i) => ({ ...f, i })).filter((f) => f.i % 2 === 0), faqs.map((f, i) => ({ ...f, i })).filter((f) => f.i % 2 === 1)];
 
   return (
-    <div className="container-x grid items-start gap-3 md:grid-cols-2 md:gap-x-8">
+    <div className="container-x grid items-start gap-3 lg:grid-cols-2 lg:gap-x-8">
       {cols.map((col, c) => (
         <div key={c} className="space-y-2">
           {col.map((f) => {

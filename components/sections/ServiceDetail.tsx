@@ -2,22 +2,27 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Check, ChevronRight } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { Check, ChevronRight, ChevronDown } from "lucide-react";
 import { detailLink, services } from "@/data/data";
 import Icon from "@/components/ui/Icon";
 import useItemId from "@/components/ui/useItemId";
 
 export default function ServiceDetail() {
+  const router = useRouter();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const id = useItemId();
   const service = services.find((s) => s.id === id) ?? services[0];
   const [first, ...rest] = service.title.split(" ");
 
   return (
-    <section className="py-14 md:py-20">
+    <section className="pt-8 md:pt-8 pb-14 md:pb-10 relative z-10">
       <div className="container-x grid gap-10 lg:grid-cols-[316px_1fr]">
         {/* Sidebar */}
         <aside>
-          <ul className="overflow-hidden rounded-md border border-slate-100 bg-white shadow-sm">
+          {/* Desktop Sidebar */}
+          <ul className="hidden lg:block overflow-hidden rounded-md border border-slate-100 bg-white shadow-sm">
             {services.map((s) => (
               <li key={s.id}>
                 <Link
@@ -32,6 +37,35 @@ export default function ServiceDetail() {
               </li>
             ))}
           </ul>
+
+          {/* Mobile Dropdown */}
+          <div className="relative block lg:hidden z-20">
+            <button 
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="flex w-full items-center justify-between rounded-md px-5 py-4 text-[17px] font-semibold shadow-sm outline-none transition-colors duration-300 bg-ink text-white"
+            >
+              <span>{service.title}</span>
+              <ChevronDown size={20} className={`transition-transform duration-300 text-brand ${isMobileMenuOpen ? "rotate-180" : ""}`} />
+            </button>
+            
+            {isMobileMenuOpen && (
+              <ul className="absolute left-0 right-0 top-full mt-2 overflow-hidden rounded-md border border-slate-100 bg-white shadow-lg">
+                {services.map((s) => (
+                  <li key={s.id}>
+                    <Link
+                      href={detailLink.service(s.id)}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className={`flex items-center justify-between border-b border-slate-100 px-5 py-3 text-[16px] transition ${
+                        s.id === service.id ? "bg-brand text-white font-bold" : "text-ink hover:bg-brand hover:text-white"
+                      }`}
+                    >
+                      {s.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
         </aside>
 
         {/* Content */}

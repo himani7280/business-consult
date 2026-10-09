@@ -23,11 +23,6 @@ export default function ClientTilt({ children, className = "", ...props }: any) 
   return (
     <Tilt 
       className={className} 
-      glareEnable={true} 
-      glareMaxOpacity={0.3} 
-      glareColor="#ffffff" 
-      glarePosition="all" 
-      glareBorderRadius="16px"
       {...props}
     >
       {children}

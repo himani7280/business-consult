@@ -30,7 +30,7 @@ export default function Footer() {
   
   return (
     <footer className="bg-ink font-outfit text-white">
-      <div className="container-x grid gap-10 py-14 lg:grid-cols-[1.1fr_1fr_1.2fr] lg:gap-0">
+      <div className="container-x grid gap-10 py-14 md:grid-cols-3 lg:grid-cols-[1.1fr_1fr_1.2fr] lg:gap-0">
         {/* About */}
         <div className="lg:pr-12">
           <Image
@@ -41,7 +41,7 @@ export default function Footer() {
             className="h-[56px] w-auto md:h-[80px] object-contain"
           />
           <p className="mt-4 max-w-sm text-[17px] leading-8 text-white/90">{site.about}</p>
-          <div className="mt-8 flex gap-3">
+          <div className="mt-8 flex gap-3 md:gap-2 lg:gap-3">
             {site.social.map((s) => (
               <a
                 key={s.name}
@@ -49,7 +49,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={s.name}
-                className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-gold text-white transition hover:bg-gold hover:text-ink"
+                className="flex h-14 w-14 md:h-10 md:w-10 lg:h-14 lg:w-14 shrink-0 items-center justify-center rounded-full border-2 border-gold text-gold transition hover:bg-gold hover:text-ink"
               >
                 <SocialIcon name={s.name} />
               </a>

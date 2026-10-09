@@ -18,7 +18,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full z-50 shadow-sm">
       {/* Top bar: logo + contact */}
       <div className="bg-white">
-        <div className="container-x flex h-[70px] items-center justify-between md:h-[90px]">
+        <div className="container-x !px-4 sm:!px-10 flex h-[70px] items-center justify-between md:h-[90px]">
           <Link href="/" aria-label="BizConsult home" className="block">
             <Image
               src={site.images.logoDark}

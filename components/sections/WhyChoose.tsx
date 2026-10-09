@@ -7,7 +7,7 @@ export default function WhyChoose() {
   return (
     <section className="bg-white mb-12">
       <div className="grid lg:grid-cols-2">
-        <div className="pt-12 pb-16 pl-6 pr-0 lg:ml-auto lg:w-full lg:max-w-[50vw] lg:pt-16 lg:pb-24 lg:pl-[max(2.5rem,calc((100vw-1320px)/2+2.5rem))] lg:pr-0">
+        <div className="pt-12 pb-16 pl-6 pr-6 lg:ml-auto lg:w-full lg:max-w-[50vw] lg:pt-16 lg:pb-24 lg:pl-[max(2.5rem,calc((100vw-1320px)/2+2.5rem))] lg:pr-16 xl:pr-24">
           <p className="font-heading text-sm font-semibold uppercase tracking-[0.15em] text-brand">{whyChoose.label}</p>
           <div className="mt-4 h-[3px] w-12 bg-brand" />
           <h2 className="mt-6 font-heading text-[32px] font-bold leading-[1.15] text-ink md:text-[40px] lg:text-[46px] max-w-[550px]">
