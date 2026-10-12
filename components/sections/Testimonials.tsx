@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { testimonials } from "@/data/data";
+import ClientTilt from "@/components/ui/ClientTilt";
 
 export default function Testimonials() {
   const [start, setStart] = useState(0);
@@ -31,7 +32,8 @@ export default function Testimonials() {
 
       <div className="grid gap-8 md:grid-cols-3 xl:px-8">
         {visible.map((t, i) => (
-          <div key={t.name} className={`group flex flex-col cursor-pointer transition-transform duration-300 hover:scale-[0.98] ${i > 0 ? "hidden md:flex" : ""}`}>
+          <ClientTilt key={t.name} tiltMaxAngleX={5} tiltMaxAngleY={5} scale={1.02} transitionSpeed={1500} perspective={1000} className={`flex flex-col ${i > 0 ? "hidden md:flex" : ""}`}>
+          <div className="group flex flex-1 flex-col cursor-pointer">
             <div className="relative flex-1 rounded-lg bg-white p-7 shadow-[0_6px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300 group-hover:shadow-[0_4px_12px_rgba(0,0,0,0.1)]">
               <div className="flex items-start justify-between">
                 <div className="flex gap-1 text-brand">
@@ -52,6 +54,7 @@ export default function Testimonials() {
               </div>
             </div>
           </div>
+          </ClientTilt>
         ))}
       </div>
 

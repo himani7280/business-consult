@@ -2,6 +2,7 @@ import Image from "next/image";
 import { site, whyChoose } from "@/data/data";
 import Highlight from "@/components/ui/Highlight";
 import Icon from "@/components/ui/Icon";
+import ClientTilt from "@/components/ui/ClientTilt";
 
 export default function WhyChoose() {
   return (
@@ -16,7 +17,8 @@ export default function WhyChoose() {
           <p className="mt-5 text-[16px] leading-relaxed text-slate-500 max-w-[600px]">{whyChoose.text}</p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {whyChoose.items.map((it) => (
-              <div key={it.title} className="group flex gap-4 rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md cursor-pointer hover:border-brand/30">
+              <ClientTilt key={it.title} tiltMaxAngleX={6} tiltMaxAngleY={6} scale={1.03} transitionSpeed={1500} perspective={1000} className="h-full">
+              <div className="group flex h-full gap-4 rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md cursor-pointer hover:border-brand/30">
                 <span className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-[12px] bg-[#F2994A] text-white transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
                   <Icon name={it.icon} size={28} strokeWidth={1.8} />
                 </span>
@@ -25,6 +27,7 @@ export default function WhyChoose() {
                   <p className="mt-1 text-[13px] leading-relaxed text-slate-500 transition-colors duration-300 group-hover:text-slate-700">{it.text}</p>
                 </div>
               </div>
+              </ClientTilt>
             ))}
           </div>
         </div>

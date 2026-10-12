@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CustomCursor from "@/components/ui/CustomCursor";
 import AOSProvider from "@/components/layout/AOSProvider";
+import RouteScrollReset from "@/components/layout/RouteScrollReset";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({ variable: "--font-jakarta", subsets: ["latin"] });
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AOSProvider>
           <Suspense fallback={null}>
             <CustomCursor />
+            <RouteScrollReset />
           </Suspense>
           <Suspense fallback={null}>
             <Header />
