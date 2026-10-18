@@ -3,6 +3,7 @@ import { pageTitles, servicesSection } from "@/data/data";
 import PageBanner from "@/components/layout/PageBanner";
 import ServicesGrid from "@/components/sections/ServicesGrid";
 import SectionHeading from "@/components/ui/SectionHeading";
+import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export const metadata: Metadata = { title: "Our Services | BizConsult" };
 
@@ -10,7 +11,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageBanner {...pageTitles.services} />
-      <section className="pt-8 pb-12 md:pt-12 md:pb-16">
+      <AnimatedSection className="pt-8 pb-12 md:pt-12 md:pb-16">
         <SectionHeading
           label={servicesSection.label}
           title={servicesSection.title}
@@ -19,7 +20,7 @@ export default function ServicesPage() {
           className="mb-12 px-5 font-mont"
         />
         <ServicesGrid />
-      </section>
+      </AnimatedSection>
     </>
   );
 }

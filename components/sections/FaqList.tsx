@@ -20,8 +20,11 @@ export default function FaqList() {
             return (
               <div
                 key={f.i}
-                className={`rounded border bg-white ${
-                  isOpen ? "border-slate-100 border-l-4 border-l-brand shadow-[0_6px_20px_rgba(0,0,0,0.08)]" : "border-slate-200"
+                data-aos="zoom-in"
+                data-aos-delay={(f.i % 4) * 80}
+                suppressHydrationWarning
+                className={`rounded border bg-white transition-all duration-300 ${
+                  isOpen ? "border-slate-100 border-l-4 border-l-brand shadow-[0_6px_20px_rgba(0,0,0,0.08)]" : "border-slate-200 hover:border-slate-300"
                 }`}
               >
                 <button

@@ -3,6 +3,7 @@ import { pageTitles } from "@/data/data";
 import PageBanner from "@/components/layout/PageBanner";
 import AboutSection from "@/components/sections/AboutSection";
 import WhyChoose from "@/components/sections/WhyChoose";
+import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export const metadata: Metadata = { title: "About Us | BizConsult" };
 
@@ -10,8 +11,12 @@ export default function AboutPage() {
   return (
     <>
       <PageBanner {...pageTitles.about} />
-      <AboutSection hideButton />
-      <WhyChoose />
+      <AnimatedSection>
+        <AboutSection hideButton />
+      </AnimatedSection>
+      <AnimatedSection>
+        <WhyChoose />
+      </AnimatedSection>
     </>
   );
 }

@@ -6,7 +6,7 @@ import ClientTilt from "@/components/ui/ClientTilt";
 
 import { detailLink, serviceCardOrder, services } from "@/data/data";
 
-// Services ke 6 cards. dark = home page (kaala background), nahi to services page (safed).
+
 export default function ServicesGrid({ dark = false, limit }: { dark?: boolean; limit?: number }) {
   let cards = serviceCardOrder
     .map((id) => services.find((s) => s.id === id))
@@ -32,12 +32,12 @@ export default function ServicesGrid({ dark = false, limit }: { dark?: boolean; 
             </p>
             <div className="mt-6 flex flex-col w-full">
               <div className="flex items-center justify-center">
-                <Link href={detailLink.service(s!.id)} className={`inline-flex items-center gap-4 text-[13px] font-bold tracking-[0.1em] uppercase transition-colors ${dark ? "text-white" : "text-ink hover:text-brand"}`}>
+                <span className={`inline-flex items-center gap-4 text-[13px] font-bold tracking-[0.1em] uppercase transition-colors ${dark ? "text-white" : "text-ink group-hover:text-brand"}`}>
                   SEE MORE
                   <span className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-brand text-brand transition-colors hover:bg-brand hover:text-white group-hover:bg-brand group-hover:text-white">
                     <ArrowRight size={20} />
                   </span>
-                </Link>
+                </span>
               </div>
               {!dark && <div className="mt-5 border-t-2 border-brand" />}
             </div>
@@ -46,9 +46,16 @@ export default function ServicesGrid({ dark = false, limit }: { dark?: boolean; 
 
         return (
           <ClientTilt key={s!.id} tiltMaxAngleX={8} tiltMaxAngleY={8} scale={1.05} transitionSpeed={1500} perspective={1000} className="h-full">
-            <div className="group flex flex-col h-full text-center font-mont transition" data-aos="fade-up" data-aos-delay={idx * 100}>
+            <Link
+              href={detailLink.service(s!.id)}
+              data-cursor="view"
+              suppressHydrationWarning
+              className="group flex flex-col h-full text-center font-mont transition cursor-pointer"
+              data-aos="zoom-in"
+              data-aos-delay={idx * 100}
+            >
               {content}
-            </div>
+            </Link>
           </ClientTilt>
         );
       })}

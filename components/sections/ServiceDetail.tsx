@@ -2,22 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Check, ChevronRight, ChevronDown } from "lucide-react";
 import { detailLink, services } from "@/data/data";
 import Icon from "@/components/ui/Icon";
 import useItemId from "@/components/ui/useItemId";
+import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export default function ServiceDetail() {
-  const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const id = useItemId();
   const service = services.find((s) => s.id === id) ?? services[0];
   const [first, ...rest] = service.title.split(" ");
 
   return (
-    <section className="pt-8 md:pt-8 pb-14 md:pb-10 relative z-10">
+    <AnimatedSection className="pt-8 md:pt-8 pb-14 md:pb-10 relative z-10">
       <div className="container-x grid gap-10 lg:grid-cols-[316px_1fr]">
         {/* Sidebar */}
         <aside>
@@ -74,7 +73,7 @@ export default function ServiceDetail() {
             <Image src={service.image} alt={service.title} fill sizes="975px" className="object-cover" />
           </div>
           <p className="mt-6 font-heading text-xs font-semibold uppercase tracking-[0.3em] text-slate-600">Our Service</p>
-          <h2 className="mt-2 font-heading text-3xl font-bold text-ink md:text-4xl">
+          <h2 className="mt-2 font-heading text-3xl font-bold leading-[1.2] tracking-tight text-ink sm:text-4xl lg:text-[42px]">
             {first} <span className="text-brand">{rest.join(" ")}</span>
           </h2>
           <p className="mt-4 max-w-4xl text-[17px] leading-7 text-slate-500">{service.intro}</p>
@@ -85,8 +84,8 @@ export default function ServiceDetail() {
               <h3 className="font-heading text-xl font-bold text-ink">What We Offer</h3>
               <p className="mt-3 text-[16px] leading-7 text-slate-500">{service.offerText}</p>
               <ul className="mt-6 space-y-4">
-                {service.offers.map((o: { title: string; text: string; icon: string }) => (
-                  <li key={o.title} className="group flex gap-4 cursor-pointer">
+                {service.offers.map((o: { title: string; text: string; icon: string }, i: number) => (
+                  <li key={o.title} data-aos="zoom-in" data-aos-delay={i * 80} suppressHydrationWarning className="group flex gap-4">
                     <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-md bg-brand-soft text-brand transition-all duration-300 group-hover:bg-brand group-hover:text-white group-hover:scale-110 group-hover:shadow-lg">
                       <Icon name={o.icon as any} size={28} strokeWidth={1.8} />
                     </span>
@@ -99,11 +98,11 @@ export default function ServiceDetail() {
               </ul>
             </div>
 
-            <div className="h-fit rounded-md border border-slate-100 bg-slate-50 p-7 shadow-sm">
+            <div data-aos="zoom-in" data-aos-delay="150" suppressHydrationWarning className="h-fit rounded-md border border-slate-100 bg-slate-50 p-7 shadow-sm">
               <h3 className="font-heading text-2xl font-bold text-ink">Key Benefits</h3>
               <ul className="mt-5 space-y-3.5">
                 {service.benefits.map((b: string) => (
-                  <li key={b} className="group flex items-center gap-3 text-[16px] text-slate-600 cursor-pointer">
+                  <li key={b} className="group flex items-center gap-3 text-[16px] text-slate-600">
                     <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand text-white transition-all duration-300 group-hover:bg-ink group-hover:text-brand group-hover:scale-110">
                       <Check size={14} strokeWidth={3} />
                     </span>
@@ -115,6 +114,6 @@ export default function ServiceDetail() {
           </div>
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 }

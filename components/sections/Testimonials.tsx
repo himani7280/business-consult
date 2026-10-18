@@ -33,7 +33,7 @@ export default function Testimonials() {
       <div className="grid gap-8 md:grid-cols-3 xl:px-8">
         {visible.map((t, i) => (
           <ClientTilt key={t.name} tiltMaxAngleX={5} tiltMaxAngleY={5} scale={1.02} transitionSpeed={1500} perspective={1000} className={`flex flex-col ${i > 0 ? "hidden md:flex" : ""}`}>
-          <div className="group flex flex-1 flex-col cursor-pointer">
+          <div data-aos="zoom-in" suppressHydrationWarning className="group flex flex-1 flex-col">
             <div className="relative flex-1 rounded-lg bg-white p-7 shadow-[0_6px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300 group-hover:shadow-[0_4px_12px_rgba(0,0,0,0.1)]">
               <div className="flex items-start justify-between">
                 <div className="flex gap-1 text-brand">

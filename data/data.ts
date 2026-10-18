@@ -1,5 +1,4 @@
-// Saara site ka data yahin se aata hai. Text/image/link badalna ho to sirf is file mein badlo.
-// Title mein *star* ke beech ka text orange highlight hota hai.
+
 
 export type IconName =
   | "target" | "chart" | "lightbulb" | "users" | "handshake" | "briefcase" | "award"
@@ -36,7 +35,7 @@ export const quoteSection = data.quoteSection;
 export const thankYou = data.thankYou;
 export const pageTitles = data.pageTitles;
 
-// ---------------------------------------------------------------- Detail page links (bina slug: /page?id=2)
+// ---------------------------------------------------------------- Detail page links 
 export const detailLink = {
   service: (id: number) => `/service-details/${id}`,
   caseStudy: (id: number) => `/case-studies-detail/${id}`,

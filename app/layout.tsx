@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import { Inter, Montserrat, Outfit, Plus_Jakarta_Sans } from "next/font/google";
+import { Asap, Poppins } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CustomCursor from "@/components/ui/CustomCursor";
@@ -8,10 +8,19 @@ import AOSProvider from "@/components/layout/AOSProvider";
 import RouteScrollReset from "@/components/layout/RouteScrollReset";
 import "./globals.css";
 
-const jakarta = Plus_Jakarta_Sans({ variable: "--font-jakarta", subsets: ["latin"] });
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
-const montserrat = Montserrat({ variable: "--font-montserrat", subsets: ["latin"] });
-const outfit = Outfit({ variable: "--font-outfit", subsets: ["latin"] });
+const asap = Asap({ 
+  variable: "--font-asap", 
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap" 
+});
+
+const poppins = Poppins({ 
+  variable: "--font-poppins", 
+  subsets: ["latin"], 
+  weight: ["300", "400", "500", "600", "700", "800"],
+  display: "swap" 
+});
 
 export const metadata: Metadata = {
   title: "BizConsult | Strategy, Growth, Success",
@@ -23,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${jakarta.variable} ${inter.variable} ${montserrat.variable} ${outfit.variable} antialiased`}
+      className={`${asap.variable} ${poppins.variable} antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-screen flex flex-col overflow-x-hidden" suppressHydrationWarning>

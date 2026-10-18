@@ -17,7 +17,7 @@ export default function StatsBanner() {
         
         {/* Title area */}
         <div className="mb-12">
-          <h2 className="border-l-[3px] border-brand pl-5 font-body text-3xl font-bold leading-[1.2] sm:text-4xl md:text-[42px]">
+          <h2 className="border-l-[3px] border-brand pl-5 font-heading text-3xl font-bold leading-[1.2] tracking-tight sm:text-4xl lg:text-[42px] text-white">
             <Highlight text={stats.title} className="text-brand block mt-1" />
           </h2>
         </div>
@@ -27,7 +27,9 @@ export default function StatsBanner() {
           {stats.items.map((s, i) => (
             <div
               key={s.label}
-              className={`flex items-center gap-4 w-[45%] sm:w-auto ${i > 0 ? "sm:border-l sm:border-white/20 sm:pl-6 lg:pl-10" : ""}`}
+              data-aos="zoom-in"
+              data-aos-delay={i * 100}
+              className={`flex items-center gap-4 w-[45%] sm:w-auto transition-transform duration-300 hover:scale-105 ${i > 0 ? "sm:border-l sm:border-white/20 sm:pl-6 lg:pl-10" : ""}`}
             >
               <Icon
                 name={s.icon}
@@ -35,14 +37,20 @@ export default function StatsBanner() {
                 {...(s.icon === "handshake" ? { strokeWidth: 1.8 } : { fill: "currentColor", strokeWidth: 1.2 })}
               />
               <div>
-                <p className="mb-0.5 font-body text-[26px] font-bold leading-none text-brand sm:text-[30px]">
+                <p className="mb-0.5 font-body text-[26px] font-bold leading-none text-brand sm:text-[30px]" suppressHydrationWarning>
                   <CountUp 
                     end={parseInt(s.value.replace(/[^0-9]/g, ''))} 
                     suffix={s.value.replace(/[0-9]/g, '')} 
                     enableScrollSpy 
                     scrollSpyOnce 
                     duration={2.5}
-                  />
+                  >
+                    {({ countUpRef }) => (
+                      <span ref={countUpRef} suppressHydrationWarning>
+                        {s.value}
+                      </span>
+                    )}
+                  </CountUp>
                 </p>
                 <p className="max-w-[90px] text-[13px] leading-[1.2] text-gray-200 sm:text-[14px]">{s.label}</p>
               </div>

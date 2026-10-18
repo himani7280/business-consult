@@ -10,8 +10,10 @@ export default function BlogCard({ post }: { post: BlogPost }) {
     <ClientTilt tiltMaxAngleX={6} tiltMaxAngleY={6} scale={1.03} transitionSpeed={1500} perspective={1000}>
       <Link
         href={detailLink.blog(post.id)}
+        data-cursor="view"
+        suppressHydrationWarning
         className="group flex flex-col overflow-hidden sm:flex-row rounded-l-lg rounded-r-xl bg-white shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition sm:min-h-[240px] mb-2"
-        data-aos="fade-up"
+        data-aos="zoom-in"
       >
       <div className="relative h-64 w-full shrink-0 sm:h-auto sm:w-[42%]">
         <Image src={post.image} alt={post.title} fill sizes="200px" className="object-cover" />

@@ -2,7 +2,7 @@
 
 import { useParams } from "next/navigation";
 
-// /service-details/3 -> 3 (id na ho to pehla item)
+// /service-details/3 
 export default function useItemId() {
   const params = useParams();
   const id = Number(params?.id);

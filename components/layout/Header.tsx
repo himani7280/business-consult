@@ -4,14 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { ArrowRight, ChevronDown, Mail, Menu, Phone, X } from "lucide-react";
-import { detailLink, navLinks, services, site } from "@/data/data";
+import { ArrowRight, Mail, Menu, Phone, X } from "lucide-react";
+import { navLinks, site } from "@/data/data";
 
 export default function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-
-
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
 
   return (
@@ -31,28 +29,28 @@ export default function Header() {
           </Link>
 
           <div className="hidden items-center gap-8 lg:flex">
-            <div className="group flex items-center gap-3 cursor-pointer">
+            <a href={`tel:${site.phone.replace(/\s/g, "")}`} className="group flex items-center gap-3">
               <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-soft text-brand transition-colors duration-300 group-hover:bg-brand group-hover:text-white">
                 <Phone size={22} fill="currentColor" />
               </span>
               <div>
                 <p className="font-heading text-sm font-bold md:text-base transition-colors duration-300 group-hover:text-brand">Call Us Now</p>
-                <a href={`tel:${site.phone.replace(/\s/g, "")}`} className="text-sm md:text-[15px] hover:text-brand transition-colors">
+                <span className="text-sm md:text-[15px] transition-colors group-hover:text-brand">
                   {site.phone}
-                </a>
+                </span>
               </div>
-            </div>
-            <div className="group flex items-center gap-3 cursor-pointer">
+            </a>
+            <a href={`mailto:${site.email}`} className="group flex items-center gap-3">
               <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-soft text-brand transition-colors duration-300 group-hover:bg-brand group-hover:text-white">
                 <Mail size={22} />
               </span>
               <div>
                 <p className="font-heading text-sm font-bold md:text-base transition-colors duration-300 group-hover:text-brand">Email Address</p>
-                <a href={`mailto:${site.email}`} className="text-sm md:text-[15px] hover:text-brand transition-colors">
+                <span className="text-sm md:text-[15px] transition-colors group-hover:text-brand">
                   {site.email}
-                </a>
+                </span>
               </div>
-            </div>
+            </a>
           </div>
 
           <button

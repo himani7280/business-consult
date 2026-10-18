@@ -17,11 +17,12 @@ export default function AnimatedSection({
 
   return (
     <MotionTag
-      initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
-      whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 1, delay: delay, ease: [0.16, 1, 0.3, 1] }}
-      className={className}
+      initial={{ opacity: 0, y: 30, scale: 0.96 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ once: true, margin: "-60px" }}
+      transition={{ duration: 0.8, delay: delay, ease: [0.16, 1, 0.3, 1] }}
+      className={`w-full ${className}`}
+      suppressHydrationWarning
     >
       {children}
     </MotionTag>

@@ -15,7 +15,7 @@ export default function ContactForm() {
       className="mt-6 space-y-4"
       onSubmit={(e) => {
         e.preventDefault();
-        // Yahan API call jod sakte ho; abhi seedha thank-you page.
+        
         router.push("/thank-you");
       }}
     >

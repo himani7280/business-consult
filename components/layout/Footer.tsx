@@ -2,14 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronRight, Clock, Mail, MapPin, Phone } from "lucide-react";
+import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 import { quickLinks, site } from "@/data/data";
 import SocialIcon from "@/components/ui/SocialIcons";
 import ScrollTop from "./ScrollTop";
 
 function ContactRow({ icon, title, lines }: { icon: React.ReactNode; title: string; lines: string[] }) {
   return (
-    <li className="flex items-center gap-4 group cursor-pointer">
+    <li className="flex items-center gap-4 group">
       <span className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-full border-2 border-gold text-gold transition-colors duration-300 group-hover:bg-gold group-hover:text-ink">
         {icon}
       </span>

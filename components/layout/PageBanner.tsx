@@ -2,7 +2,7 @@ import Link from "next/link";
 import Highlight from "@/components/ui/Highlight";
 import { site } from "@/data/data";
 
-// Har inner page ka upar wala banner (title + breadcrumb)
+
 export default function PageBanner({ 
   title, 
   crumb, 
@@ -18,8 +18,8 @@ export default function PageBanner({
       style={{ backgroundImage: `url(${site.images.pageBanner})` }}
     >
       <div className="absolute inset-0 bg-black/15" />
-      <div className="relative px-4 text-center text-white">
-        <h1 className="text-4xl font-bold md:text-[56px] md:leading-tight" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+      <div data-aos="zoom-in" suppressHydrationWarning className="relative px-4 text-center text-white">
+        <h1 className="font-heading text-4xl font-bold md:text-[56px] md:leading-tight">
           <Highlight text={title} />
         </h1>
         <p className="mt-2 text-lg md:text-xl">

@@ -13,7 +13,7 @@ export default function QuoteForm() {
   const f = quoteSection.form;
 
   return (
-    <div className="overflow-hidden rounded-lg bg-white shadow-[0_10px_40px_rgba(0,0,0,0.12)]">
+    <div data-aos="zoom-in" suppressHydrationWarning className="overflow-hidden rounded-lg bg-white shadow-[0_10px_40px_rgba(0,0,0,0.12)]">
       <div className="flex items-center gap-5 bg-ink px-7 py-6 text-white">
         <FileText size={44} strokeWidth={1.3} className="shrink-0 text-brand" />
         <div>

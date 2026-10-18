@@ -10,8 +10,10 @@ export default function CaseCard({ item }: { item: CaseStudy }) {
     <ClientTilt tiltMaxAngleX={8} tiltMaxAngleY={8} scale={1.05} transitionSpeed={1500} perspective={1000}>
       <Link
         href={detailLink.caseStudy(item.id)}
+        data-cursor="view"
+        suppressHydrationWarning
         className="group relative block h-[260px] overflow-hidden rounded-lg shadow-md md:h-[300px]"
-        data-aos="fade-up"
+        data-aos="zoom-in"
       >
       <Image
         src={item.image}

@@ -1,4 +1,4 @@
-// "Your Partner In *Business Growth*" -> star ke beech ka text orange.
+// "Your Partner In *Business Growth*" 
 export default function Highlight({
   text,
   className = "text-brand",

@@ -6,6 +6,7 @@ import { CalendarDays, ChevronRight, FolderOpen, User } from "lucide-react";
 import { blogCategories, blogPosts, detailLink } from "@/data/data";
 import Highlight from "@/components/ui/Highlight";
 import useItemId from "@/components/ui/useItemId";
+import AnimatedSection from "@/components/ui/AnimatedSection";
 
 function SideTitle({ children }: { children: React.ReactNode }) {
   return (
@@ -22,10 +23,10 @@ export default function BlogDetail() {
   const popular = blogPosts.filter((p) => p.id !== post.id).slice(0, 4);
 
   return (
-    <section className="py-10 md:py-14">
+    <AnimatedSection className="py-10 md:py-14">
       <div className="container-x grid gap-12 lg:grid-cols-[1fr_395px]">
         <article>
-          <h1 className="font-heading text-3xl font-bold leading-[1.15] tracking-tight text-ink md:text-5xl">
+          <h1 className="font-heading text-3xl font-bold leading-[1.2] tracking-tight text-ink sm:text-4xl lg:text-[42px]">
             <Highlight text={post.heading} />
           </h1>
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-[15px] text-slate-500">
@@ -62,9 +63,9 @@ export default function BlogDetail() {
           <div>
             <SideTitle>Popular Posts</SideTitle>
             <ul className="space-y-4">
-              {popular.map((p) => (
-                <li key={p.id}>
-                  <Link href={detailLink.blog(p.id)} className="flex items-center gap-4 rounded-md bg-white p-3 shadow-[0_3px_14px_rgba(0,0,0,0.08)]">
+              {popular.map((p, i) => (
+                <li key={p.id} data-aos="zoom-in" data-aos-delay={i * 80} suppressHydrationWarning>
+                  <Link href={detailLink.blog(p.id)} data-cursor="view" className="flex items-center gap-4 rounded-md bg-white p-3 shadow-[0_3px_14px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:scale-[1.02]">
                     <span className="relative h-[110px] w-[110px] shrink-0 overflow-hidden rounded sm:w-[138px]">
                       <Image src={p.image} alt={p.title} fill sizes="140px" className="object-cover" />
                     </span>
@@ -95,6 +96,6 @@ export default function BlogDetail() {
           </div>
         </aside>
       </div>
-    </section>
+    </AnimatedSection>
   );
 }

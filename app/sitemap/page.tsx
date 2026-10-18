@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { blogPosts, caseStudies, detailLink, pageTitles, quickLinks, services } from "@/data/data";
 import PageBanner from "@/components/layout/PageBanner";
+import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export const metadata: Metadata = { title: "Sitemap | BizConsult" };
 
@@ -17,10 +18,10 @@ export default function SitemapPage() {
   return (
     <>
       <PageBanner {...pageTitles.sitemap} />
-      <section className="py-14 md:py-20">
+      <AnimatedSection className="py-14 md:py-20">
         <div className="container-x grid gap-10 md:grid-cols-2">
-          {groups.map((g) => (
-            <div key={g.title}>
+          {groups.map((g, idx) => (
+            <div key={g.title} data-aos="zoom-in" data-aos-delay={idx * 100} suppressHydrationWarning>
               <h2 className="font-heading text-2xl font-bold text-ink">{g.title}</h2>
               <div className="mb-5 mt-3 h-1 w-12 rounded bg-brand" />
               <ul className="space-y-3">
@@ -36,7 +37,7 @@ export default function SitemapPage() {
             </div>
           ))}
         </div>
-      </section>
+      </AnimatedSection>
     </>
   );
 }

@@ -20,8 +20,8 @@ export default function Home() {
         <Image src={site.images.hero} alt="" fill priority sizes="100vw" className="object-cover object-[75%_50%] lg:object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/40 sm:bg-gradient-to-r sm:from-black/60 sm:via-black/20 sm:to-black/0 lg:from-black/50 lg:via-black/10 lg:to-transparent" />
         <div className="container-x relative flex min-h-[400px] items-center py-16 md:min-h-[460px] lg:min-h-[520px]">
-          <div className="max-w-[760px] -mt-8 md:-mt-16">
-            <h1 className="font-body text-[32px] font-bold leading-[1.1] tracking-tight sm:text-[40px] md:text-[56px]">
+          <div data-aos="zoom-in" suppressHydrationWarning className="max-w-[760px] -mt-8 md:-mt-16">
+            <h1 className="font-heading text-[32px] font-bold leading-[1.1] tracking-tight sm:text-[40px] md:text-[56px]">
               {hero.title.split("*").map((part, i) =>
                 i % 2 === 1 ? (
                   <span key={i} className="block text-brand">

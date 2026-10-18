@@ -1,4 +1,4 @@
-// Brand icons (lucide mein nahi aate) - simple inline SVG.
+// Brand icons 
 const paths: Record<string, string> = {
   Facebook:
     "M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21h3Z",
