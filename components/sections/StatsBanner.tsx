@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { site, stats } from "@/data/data";
 import Highlight from "@/components/ui/Highlight";
@@ -7,6 +8,11 @@ import Icon from "@/components/ui/Icon";
 import CountUp from "react-countup";
 
 export default function StatsBanner() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <section className="relative overflow-hidden bg-[#0b0d10] text-white">
       <Image src={site.images.stats} alt="" fill sizes="100vw" className="object-cover object-center" />
@@ -29,6 +35,7 @@ export default function StatsBanner() {
               key={s.label}
               data-aos="zoom-in"
               data-aos-delay={i * 100}
+              suppressHydrationWarning
               className={`flex items-center gap-4 w-[45%] sm:w-auto transition-transform duration-300 hover:scale-105 ${i > 0 ? "sm:border-l sm:border-white/20 sm:pl-6 lg:pl-10" : ""}`}
             >
               <Icon
@@ -38,19 +45,23 @@ export default function StatsBanner() {
               />
               <div>
                 <p className="mb-0.5 font-body text-[26px] font-bold leading-none text-brand sm:text-[30px]" suppressHydrationWarning>
-                  <CountUp 
-                    end={parseInt(s.value.replace(/[^0-9]/g, ''))} 
-                    suffix={s.value.replace(/[0-9]/g, '')} 
-                    enableScrollSpy 
-                    scrollSpyOnce 
-                    duration={2.5}
-                  >
-                    {({ countUpRef }) => (
-                      <span ref={countUpRef} suppressHydrationWarning>
-                        {s.value}
-                      </span>
-                    )}
-                  </CountUp>
+                  {mounted ? (
+                    <CountUp 
+                      end={parseInt(s.value.replace(/[^0-9]/g, ''))} 
+                      suffix={s.value.replace(/[0-9]/g, '')} 
+                      enableScrollSpy 
+                      scrollSpyOnce 
+                      duration={2.5}
+                    >
+                      {({ countUpRef }) => (
+                        <span ref={countUpRef} suppressHydrationWarning>
+                          {s.value}
+                        </span>
+                      )}
+                    </CountUp>
+                  ) : (
+                    <span>{s.value}</span>
+                  )}
                 </p>
                 <p className="max-w-[90px] text-[13px] leading-[1.2] text-gray-200 sm:text-[14px]">{s.label}</p>
               </div>

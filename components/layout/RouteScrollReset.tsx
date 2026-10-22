@@ -9,11 +9,13 @@ export default function RouteScrollReset() {
   const search = useSearchParams();
 
   useEffect(() => {
-    const html = document.documentElement;
-    const prev = html.style.scrollBehavior;
-    html.style.scrollBehavior = "auto";
-    window.scrollTo(0, 0);
-    html.style.scrollBehavior = prev;
+    requestAnimationFrame(() => {
+      const html = document.documentElement;
+      const prev = html.style.scrollBehavior;
+      html.style.scrollBehavior = "auto";
+      window.scrollTo(0, 0);
+      html.style.scrollBehavior = prev;
+    });
   }, [pathname, search]);
 
   return null;

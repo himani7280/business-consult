@@ -15,7 +15,9 @@ export default function CustomCursor() {
     }
 
     setMounted(true);
-    document.body.classList.add("custom-cursor-active");
+    requestAnimationFrame(() => {
+      document.body.classList.add("custom-cursor-active");
+    });
 
     const handleMouseLeave = () => {
       setPosition({ x: -100, y: -100 });

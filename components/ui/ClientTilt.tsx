@@ -32,10 +32,12 @@ export default function ClientTilt({ children, className = "", ...props }: any) 
 
   // After hydration, render the interactive Tilt component.
   return (
-    <TiltBoundary fallback={plain}>
-      <Tilt className={className} {...props}>
-        {children}
-      </Tilt>
-    </TiltBoundary>
+    <div suppressHydrationWarning className="contents">
+      <TiltBoundary fallback={plain}>
+        <Tilt className={className} {...props}>
+          {children}
+        </Tilt>
+      </TiltBoundary>
+    </div>
   );
 }

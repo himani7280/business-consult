@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${asap.variable} ${poppins.variable} antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen flex flex-col overflow-x-hidden" suppressHydrationWarning>
+      <body className="min-h-screen flex flex-col overflow-x-clip" suppressHydrationWarning>
         <AOSProvider>
           <Suspense fallback={null}>
             <CustomCursor />
@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Suspense fallback={null}>
             <Header />
           </Suspense>
-          <main className="flex-1 pt-[70px] lg:pt-[155px]">{children}</main>
+          <main className="flex-1">{children}</main>
           <Suspense fallback={null}>
             <Footer />
           </Suspense>

@@ -18,7 +18,7 @@ export default function PageBanner({
       style={{ backgroundImage: `url(${site.images.pageBanner})` }}
     >
       <div className="absolute inset-0 bg-black/15" />
-      <div data-aos="zoom-in" suppressHydrationWarning className="relative px-4 text-center text-white">
+      <div className="relative px-4 text-center text-white">
         <h1 className="font-heading text-4xl font-bold md:text-[56px] md:leading-tight">
           <Highlight text={title} />
         </h1>
