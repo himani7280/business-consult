@@ -17,7 +17,7 @@ export default function QuotePage() {
       <PageBanner {...pageTitles.quote} />
 
       <AnimatedSection className="py-14 md:py-16">
-        <div className="container-x grid items-start gap-10 lg:grid-cols-[1fr_580px]">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid items-start gap-10 lg:grid-cols-[1fr_580px]">
           <div>
             <p className="flex items-center gap-5 font-heading text-base font-bold uppercase text-ink">
               <span className="h-[3px] w-14 bg-brand" /> {q.label}
@@ -80,7 +80,7 @@ export default function QuotePage() {
 
       {/* Process */}
       <AnimatedSection className="bg-brand-soft/70 py-10">
-        <div className="container-x grid items-start gap-8 lg:grid-cols-[250px_1fr]">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid items-start gap-8 lg:grid-cols-[250px_1fr]">
           <div data-aos="zoom-in" suppressHydrationWarning>
             <p className="flex items-center gap-4 font-heading text-sm font-bold uppercase text-ink">
               <span className="h-[3px] w-10 bg-brand" /> {q.process.label}

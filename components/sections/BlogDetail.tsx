@@ -24,7 +24,7 @@ export default function BlogDetail() {
 
   return (
     <AnimatedSection className="py-10 md:py-14">
-      <div className="container-x grid gap-12 lg:grid-cols-[1fr_395px]">
+      <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-12 lg:grid-cols-[1fr_395px]">
         <article>
           <h1 className="font-heading text-3xl font-bold leading-[1.2] tracking-tight text-ink sm:text-4xl lg:text-[42px]">
             <Highlight text={post.heading} />

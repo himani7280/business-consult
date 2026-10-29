@@ -9,7 +9,7 @@ export default function AboutSection({ hideButton = false }: { hideButton?: bool
   const [b1, b2, b3] = about.badges;
   return (
     <section className="overflow-hidden py-12 md:py-16">
-      <div className="container-x px-12 md:px-24 lg:px-32 xl:px-40 grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+      <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
         {/* Photo with badges */}
         <div data-aos="zoom-in" suppressHydrationWarning className="relative mx-auto w-full max-w-[560px] my-8 lg:my-0">
           <div className="absolute -bottom-6 -left-6 h-48 w-64 rounded-3xl bg-brand md:-bottom-8 md:-left-8" />

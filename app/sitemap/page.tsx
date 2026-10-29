@@ -19,7 +19,7 @@ export default function SitemapPage() {
     <>
       <PageBanner {...pageTitles.sitemap} />
       <AnimatedSection className="py-14 md:py-20">
-        <div className="container-x grid gap-10 md:grid-cols-2">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-10 md:grid-cols-2">
           {groups.map((g, idx) => (
             <div key={g.title} data-aos="zoom-in" data-aos-delay={idx * 100} suppressHydrationWarning>
               <h2 className="font-heading text-2xl font-bold text-ink">{g.title}</h2>

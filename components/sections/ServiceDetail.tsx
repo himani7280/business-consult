@@ -17,7 +17,7 @@ export default function ServiceDetail() {
 
   return (
     <AnimatedSection className="pt-8 md:pt-8 pb-14 md:pb-10 relative z-10">
-      <div className="container-x grid gap-10 lg:grid-cols-[316px_1fr]">
+      <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-10 lg:grid-cols-[316px_1fr]">
         {/* Sidebar */}
         <aside>
           {/* Desktop Sidebar */}

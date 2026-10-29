@@ -14,7 +14,7 @@ export default function Testimonials() {
   const visible = Array.from({ length: n }, (_, i) => testimonials[(start + i) % n]);
 
   return (
-    <div className="container-x relative mt-12">
+    <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 relative mt-12">
       <button
         onClick={prev}
         aria-label="Previous"

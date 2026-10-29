@@ -19,7 +19,7 @@ export default function Home() {
       <section className="relative overflow-hidden bg-[#0a0a0a] text-white">
         <Image src={site.images.hero} alt="" fill priority sizes="100vw" className="object-cover object-[75%_50%] lg:object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/40 sm:bg-gradient-to-r sm:from-black/60 sm:via-black/20 sm:to-black/0 lg:from-black/50 lg:via-black/10 lg:to-transparent" />
-        <div className="container-x relative flex min-h-[400px] items-center py-16 md:min-h-[460px] lg:min-h-[520px]">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 relative flex min-h-[400px] items-center py-16 md:min-h-[460px] lg:min-h-[520px]">
           <div data-aos="zoom-in" suppressHydrationWarning className="max-w-[760px] -mt-8 md:-mt-16">
             <h1 className="font-heading text-[32px] font-bold leading-[1.1] tracking-tight sm:text-[40px] md:text-[56px]">
               {hero.title.split("*").map((part, i) =>
@@ -61,7 +61,7 @@ export default function Home() {
       {/* Case studies */}
       <AnimatedSection className="pb-12 md:pb-16 pt-4 md:pt-6">
         <SectionHeading label={caseSection.label} title={caseSection.title} underline className="mb-10 px-5" />
-        <div className="container-x grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {cases.map((c) => (
             <CaseCard key={c.id} item={c} />
           ))}
@@ -78,7 +78,7 @@ export default function Home() {
       {/* Blog */}
       <AnimatedSection className="py-12 md:py-16">
         <SectionHeading label={blogSection.label} title={blogSection.title} text={blogSection.text} underline className="mb-10 px-5" />
-        <div className="container-x grid gap-6 lg:grid-cols-3">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-6 lg:grid-cols-3">
           {blogPosts.slice(0, 3).map((p) => (
             <BlogCard key={p.id} post={p} />
           ))}

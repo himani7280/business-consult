@@ -17,7 +17,7 @@ export default function ServicesGrid({ dark = false, limit }: { dark?: boolean; 
   }
 
   return (
-    <div className="container-x grid gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
       {cards.map((s, idx) => {
         const content = (
           <>

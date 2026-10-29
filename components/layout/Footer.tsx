@@ -30,7 +30,7 @@ export default function Footer() {
   
   return (
     <footer className="bg-ink font-outfit text-white">
-      <div className="container-x grid gap-10 py-14 md:grid-cols-3 lg:grid-cols-[1.1fr_1fr_1.2fr] lg:gap-0">
+      <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-10 py-14 md:grid-cols-3 lg:grid-cols-[1.1fr_1fr_1.2fr] lg:gap-0">
         {/* About */}
         <div className="lg:pr-12">
           <Image
@@ -94,7 +94,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gold">
-        <div className="container-x flex flex-wrap items-center justify-between py-4 sm:py-3 gap-y-3">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 flex flex-wrap items-center justify-between py-4 sm:py-3 gap-y-3">
           <p className="text-[15px] sm:text-[17px]">{site.copyright}</p>
           <div className="flex items-center ml-auto mr-4 sm:mr-6">
             <Link href="/sitemap" className="text-[15px] sm:text-[17px] transition hover:text-gold">

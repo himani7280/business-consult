@@ -22,7 +22,7 @@ export default function ContactPage() {
 
       {/* Info row */}
       <AnimatedSection className="pt-14">
-        <div className="container-x grid gap-8 md:grid-cols-3 lg:px-16">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-8 md:grid-cols-3">
           {contactInfo.map((c) => (
             <div key={c.title} data-aos="zoom-in" suppressHydrationWarning className="group flex items-center gap-4">
               <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-brand-soft text-brand transition-all duration-300 group-hover:bg-brand group-hover:text-white group-hover:scale-110">
@@ -43,7 +43,7 @@ export default function ContactPage() {
 
       {/* Photo + form */}
       <AnimatedSection className="py-14 md:py-16">
-        <div className="container-x grid items-center gap-10 lg:grid-cols-2">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid items-center gap-10 lg:grid-cols-2">
           <div data-aos="zoom-in" suppressHydrationWarning className="relative mx-auto h-[380px] w-full max-w-[680px] lg:h-[500px]">
             <Image src={site.images.contact} alt="Consultant ready to help" fill sizes="680px" className="object-contain object-bottom" />
           </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
       </AnimatedSection>
 
       {/* Map */}
-      <AnimatedSection className="container-x pb-12 md:pb-16">
+      <AnimatedSection className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 pb-12 md:pb-16">
         <div data-aos="zoom-in" suppressHydrationWarning className="relative overflow-hidden rounded-2xl border-2 border-brand/30 shadow-xl bg-ink">
           <iframe
             title="BizConsult office location"

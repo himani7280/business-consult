@@ -32,10 +32,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${asap.variable} ${poppins.variable} antialiased`}
+      className={`${asap.variable} ${poppins.variable} antialiased scroll-smooth max-[425px]:text-[12px]`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen flex flex-col overflow-x-clip" suppressHydrationWarning>
+      <body className="min-h-screen flex flex-col overflow-x-clip bg-white font-body text-navy [&_:where(h1,h2,h3,h4,h5,h6)]:font-heading" suppressHydrationWarning>
         <AOSProvider>
           <Suspense fallback={null}>
             <CustomCursor />

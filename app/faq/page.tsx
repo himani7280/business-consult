@@ -13,7 +13,7 @@ export default function FaqPage() {
     <>
       <PageBanner {...pageTitles.faq} />
       <AnimatedSection className="pt-4 md:pt-6 lg:pt-0 lg:-mt-8 pb-0 relative z-10">
-        <div className="container-x grid items-center gap-2 md:gap-10 lg:grid-cols-2">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid items-center gap-2 md:gap-10 lg:grid-cols-2">
           <div data-aos="zoom-in" suppressHydrationWarning className="order-last lg:order-first">
             <p className="flex items-center gap-5 font-heading text-lg font-bold uppercase text-ink">
               <span className="h-[3px] w-14 bg-brand" /> {faqSection.label}

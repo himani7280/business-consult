@@ -29,7 +29,7 @@ export default function CaseDetail() {
 
   return (
     <AnimatedSection className="pt-8 pb-12 md:pt-10 md:pb-14">
-      <div className="container-x grid gap-10 lg:grid-cols-[1fr_385px]">
+      <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-10 lg:grid-cols-[1fr_385px]">
         <div>
           <h1 className="font-heading text-3xl font-bold leading-[1.2] tracking-tight text-ink sm:text-4xl lg:text-[42px] text-balance">
             <Highlight text={item.heading} />

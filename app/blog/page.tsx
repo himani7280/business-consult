@@ -13,7 +13,7 @@ export default function BlogPage() {
       <PageBanner {...pageTitles.blog} />
       <AnimatedSection className="py-12 md:py-16">
         <SectionHeading label={blogSection.label} title={blogSection.title} text={blogSection.text} underline className="mb-12 px-5" />
-        <div className="container-x grid gap-6 lg:grid-cols-3">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 grid gap-6 lg:grid-cols-3">
           {blogPosts.map((p) => (
             <BlogCard key={p.id} post={p} />
           ))}

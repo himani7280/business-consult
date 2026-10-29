@@ -16,7 +16,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       {/* Top bar: logo + contact */}
       <div className="bg-white">
-        <div className="container-x !px-4 sm:!px-10 flex h-[70px] items-center justify-between md:h-[90px]">
+        <div className="mx-auto w-full max-w-[1320px] !px-4 sm:!px-10 flex h-[70px] items-center justify-between md:h-[90px]">
           <Link href="/" aria-label="BizConsult home" className="block">
             <Image
               src={site.images.logoDark}
@@ -65,7 +65,7 @@ export default function Header() {
 
       {/* Nav bar */}
       <nav className="hidden lg:block bg-ink text-white py-2">
-        <div className="container-x flex items-center justify-between">
+        <div className="mx-auto w-full max-w-[1320px] px-7 min-[426px]:px-10 flex items-center justify-between">
           <ul className="hidden items-center gap-8 lg:flex">
             {navLinks.map((link) => (
               <li key={link.href}>
